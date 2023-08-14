@@ -39,7 +39,7 @@ if True:
 if False:
     print("Python is such a vibe")
 else:
-    print("I love django more than python")
+    print("I love django framework")
 
 
 

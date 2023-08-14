@@ -61,5 +61,37 @@ def my_function():
     name="goat"
     return name
 print(my_function())
+def my_function():
+    pi=3.12467
+    return pi
+print(type(my_function()))
+
+c=[1,2,3]
+print(c)
+f=["a", 1, "python",(1,2,3),[1, 2]]
+print(f[4][1])
+print(3)
+a={1,2,'q'}
+print(a)
+a={1:"goat",
+    2:"piggy",
+    3:"cow"}
+print(a)
+#lists
+names=["alice","craig","diana","bob"]
+print(names[2])
+print(names[-1])
+names[0]="ann"
+print(names)
+names.append("nia")
+print(names)
+names.insert(3, "nikki")
+print(names)
+names.remove("bob")
+print(names)
+print(names.index("diana"))
+print(names)
+print(len(names))
+
 
 
