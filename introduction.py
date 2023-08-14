@@ -92,6 +92,17 @@ print(names)
 print(names.index("diana"))
 print(names)
 print(len(names))
+names.reverse()
+print(names)
+names.pop()
+print(names)
+names.reverse()
+print(names)
+import datetime
+today = datetime.datetime.now()
+print(str(today))
+print(repr(today))
+
 
 
 
