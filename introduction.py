@@ -65,6 +65,13 @@ def my_function():
     pi=3.12467
     return pi
 print(type(my_function()))
+a=3
+if a>5:
+    print("pass")
+else:
+    print("fail")
+print("DONE")
+
 
 c=[1,2,3]
 print(c)
@@ -103,6 +110,10 @@ today = datetime.datetime.now()
 print(str(today))
 print(repr(today))
 
+#DOCSTRING
+def hello():
+    """Say hello to your friend."""
+    print("hello my friend!")
 
 
 
