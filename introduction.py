@@ -105,15 +105,23 @@ names.pop()
 print(names)
 names.reverse()
 print(names)
-import datetime
-today = datetime.datetime.now()
-print(str(today))
-print(repr(today))
+#import datetime
+#today = datetime.datetime.now()
+#print(str(today))
+#print(repr(today))
 
 #DOCSTRING
 def hello():
     """Say hello to your friend."""
     print("hello my friend!")
+#creating of enum
+from  enum import Enum
+class Color(Enum):
+    red = 1
+    green = 2
+    blue =3
+print(Color.red)
+print(Color(3))
 
 
 
