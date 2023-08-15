@@ -1,6 +1,6 @@
 import operator
 from operator import truediv
-a, b =1, 2
+a, b =6, 2
 print(operator.add(a, b))
 print(operator.truediv(b, a))
 print(operator.truediv(a, b))
@@ -31,6 +31,17 @@ print(math.log10(1000000))
 print(3%4)
 print(10%2)
 print(operator.mod(3, 4))
-
-
-
+print("xxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+#boolean operators
+def or_(a,b):
+    if a:
+        return a
+    else:
+        return b
+print(or_(a,b))
+def and_(a,b):
+    if not a:
+        return a
+    else:
+        return b
+print(and_(a,b))
