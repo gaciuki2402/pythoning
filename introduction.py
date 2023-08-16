@@ -148,3 +148,16 @@ if a==3 or a==4 or a==1:#each comparison is compared separately
 else:
     print("no")
 
+if False:
+    print("it is false")
+else:
+    print("this won't be printed")
+
+if True:
+    print("it is true")
+else:
+    print("this won't be printed")
+
+if 2 + 1 != 4:
+    print("I know maths")
+
