@@ -122,6 +122,29 @@ class Color(Enum):
     blue =3
 print(Color.red)
 print(Color(3))
+#condtionals
+number=5
+if number>2:
+    print("Number is greater than 2")
+elif number<2:
+    print("number is less than 2")
+else:
+    print("number is 2")
+a=1
+b=6
+if a and b <2:#the statement is evaluated as if (a) and (b<2)
+    print("yes")
+else:
+    print("no")
 
+if a<2 and b<2:   #each variable is compared separately
+    print("yes")
+else:
+    print("no")
 
+a = 1
+if a==3 or a==4 or a==1:#each comparison is compared separately
+    print("yes")
+else:
+    print("no")
 
