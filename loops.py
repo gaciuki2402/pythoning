@@ -207,3 +207,18 @@ for key in pets:
     print(key)
 for key, value in pets.items():
     print(key, ':', value)
+#half loop
+y=10
+while True:
+    y=y-1
+    print(y)
+    if y<8:
+        break
+print("DONE.")
+list=['alpha','bravo', 'charlie','delta','echo']
+for s in list:
+    print(s[:2])
+for idx, s in enumerate(list):
+    print("%s has an index of %d" % (s, idx))
+for i in range(2, 4):
+    print("list at %d contains %s"% (i,list[i])) #iterating over a sublist
