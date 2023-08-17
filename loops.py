@@ -4,9 +4,9 @@ while n>1:
     print(n)
 
 m=10
-while m>0:
+while m>3:
     m-=1
-    if m==6:
+    if m==2:
         break
     print(m)
 print("Loop ended")
@@ -81,10 +81,65 @@ print("Infinite Looop")
 while int:
     print(int)
     break
+print("####################")
 
+r= 0
+while r<4:
+    print(r)
+    if r == 4:
+        print("breaking from loop")
+        break
+    r +=1
 
+t=1
+while t<8:
+    print(t)
+    if t ==6:
+        print("breaking")
+        break
+    t+=1
 
+print("xxxxxxxxxxxxxxxxxxxxxxx")
+p= 1
+while p<15:
+    print(p)
+    if p==11:
+        print("i know numbers.")
+        break
+    p+=2
 
+y=(0,1,2,3,4)
+for x in y:
+    print(x)
+    if x==2:
+        break
+
+w=["goat","cow", "pig", "cat", "sheep"]
+for m in w:
+    print(m)
+    if m== "pig":
+        print("these are domestic animals")
+        break
+print("************************")
+for m in w:
+    if m == "cow" or m=="cat":
+        continue
+    print(m)
+
+students={"grace", "agnes","sharon","kezzy", "mirriam"}
+for s in students:
+    print(s)
+    if s=="agnes" or s== "kezzy":
+        continue
+    print(s)
+
+#nested loops
+def break_loop():
+    for j in range(1,5):
+        for i in range(1,4):
+            if i*j==8:
+                return(i)
+            print(i*j)
 
 
 
