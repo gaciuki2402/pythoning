@@ -1,0 +1,26 @@
+from array import *
+my_array=('i',[1,2,3,4,5])
+print(my_array[1][2])
+my_array=array('i',[1,2,3,4,5])
+for i in my_array:
+    print(i)
+my_array.append(6)
+print(my_array)
+my_array.insert(0,22)
+print(my_array)
+y=(5,6,7,8,9)
+my_array.extend(y)
+print(my_array)
+c=[10,20,30]
+my_array.fromlist(c)
+print(my_array)
+my_array.remove(6)
+print(my_array)
+my_array.pop()
+print(my_array)
+print(my_array.index(5))
+my_array.reverse()
+print(my_array)
+print(my_array.buffer_info())
+print(my_array.count(5))
+
