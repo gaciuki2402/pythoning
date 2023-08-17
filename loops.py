@@ -168,6 +168,7 @@ for key, value in positions.items():
     print(key,':',  value)
 
 #loops with clause
-
+for g in range(6):
+    print(g)
 
 
