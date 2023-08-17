@@ -141,5 +141,33 @@ def break_loop():
                 return(i)
             print(i*j)
 
+#for loops
+for i in [0,1,2,3,4]:
+    print(i)
+
+for i in range(5):
+    print(i)
+
+for x in ['one','two','three', 'four']:
+    print(x)
+
+details={"key":"value",
+   "name":"grace",
+   "gender":"female",
+   "age":"22years",
+   "city":"nairobi"}
+for key, value in details.items():
+    print(key,":", value)
+for b in range(5,10):
+    print(b)
+
+positions={1:"jon doe",
+           2:"purity murugi",
+           3:"aiden mirugi"}
+for key, value in positions.items():
+    print(key,':',  value)
+
+#loops with clause
+
 
 
