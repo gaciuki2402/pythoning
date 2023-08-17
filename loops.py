@@ -168,7 +168,42 @@ for key, value in positions.items():
     print(key,':',  value)
 
 #loops with clause
-for g in range(6):
-    print(g)
+for i in range(3):
+    print(i)
+    if i==1:
+        continue
+else:
+    print('done')
 
 
+print("*****************8")
+while t<3:
+    print(t)
+else:
+    print("done")
+
+list=[1,2,3,4,5,6,'dog',50,59.94,('grace')]
+for a in list:
+    if type(a) is not int:
+        print(a)
+        continue
+else:
+    print("no exception")
+for a in list:
+    if type(a) is int:
+        print(a)
+        continue
+else:
+    print("no exception")
+
+#iterating over dictionary
+pets={1:'lizzy',
+      2:'skyler',
+      3:'jon',
+      4:'emmy'}
+for value in pets.values():
+    print(value)
+for key in pets:
+    print(key)
+for key, value in pets.items():
+    print(key, ':', value)
