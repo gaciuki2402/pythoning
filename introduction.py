@@ -1,3 +1,5 @@
+import heapq
+
 print("hello world")
 #integer
 a=2
@@ -160,4 +162,26 @@ else:
 
 if 2 + 1 != 4:
     print("I know maths")
+#heapq
+print("XXXXXXXXXXXXXXXXXXXXXXXXXXxxxxxx")
+import heapq
+numbers= [1,4,2,100,20,50,32,200,150,8]
+print(heapq.nlargest(4, numbers))
+print(heapq.nsmallest(2,numbers))
+heapq.heapify(numbers)
+print(numbers)
+heapq.heappop(numbers)
+print(numbers)
+heapq.heappop(numbers)
+print(numbers)
+print('finished'*10)
+#tuple
+#they're immutable
+tuple1= ('a', 'b', 2, 4, 9)
+print(tuple1)
+print(len(tuple1))
+print(tuple1[4])
+print(tuple1[:-2])
+print(tuple1[-3:])
+
 
